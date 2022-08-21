@@ -12,41 +12,56 @@ const Nav = () => {
 
   return (
     <nav>
-      <a
-        href="#"
-        onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}
-      >
-        <AiOutlineHome />
-      </a>
-      <a
-        href="#about"
-        onClick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? "active" : ""}
-      >
-        <AiOutlineUser />
-      </a>
-      <a
-        href="#experience"
-        onClick={() => setActiveNav("#experience")}
-        className={activeNav === "#experience" ? "active" : ""}
-      >
-        <MdDesignServices />
-      </a>
-      <a
-        href="#portfolio"
-        onClick={() => setActiveNav("#portfolio")}
-        className={activeNav === "#portfolio" ? "active" : ""}
-      >
-        <BiBook />
-      </a>
-      <a
-        href="#contact"
-        onClick={() => setActiveNav("#contact")}
-        className={activeNav === "#contact" ? "active" : ""}
-      >
-        <MdMailOutline />
-      </a>
+      <div>
+        <a
+          href="#"
+          onClick={() => setActiveNav("#")}
+          className={activeNav === "#" ? "active" : ""}
+        >
+          <AiOutlineHome />
+        </a>
+        <h5 className="nav-text">Home</h5>
+      </div>
+      <div>
+        <a
+          href="#about"
+          onClick={() => setActiveNav("#about")}
+          className={activeNav === "#about" ? "active" : ""}
+        >
+          <AiOutlineUser />
+        </a>
+        <h5 className="nav-text">About</h5>
+      </div>
+      <div>
+        <a
+          href="#experience"
+          onClick={() => setActiveNav("#experience")}
+          className={activeNav === "#experience" ? "active" : ""}
+        >
+          <MdDesignServices />
+        </a>
+        <h5 className="nav-text">Skills</h5>
+      </div>
+      <div>
+        <a
+          href="#portfolio"
+          onClick={() => setActiveNav("#portfolio")}
+          className={activeNav === "#portfolio" ? "active" : ""}
+        >
+          <BiBook />
+        </a>
+        <h5 className="nav-text">Portfolio</h5>
+      </div>
+      <div>
+        <a
+          href="#contact"
+          onClick={() => setActiveNav("#contact")}
+          className={activeNav === "#contact" ? "active" : ""}
+        >
+          <MdMailOutline />
+        </a>
+        <h5 className="nav-text">Contact</h5>
+      </div>
     </nav>
   );
 };

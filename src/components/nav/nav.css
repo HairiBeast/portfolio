@@ -1,13 +1,18 @@
 nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  left: 1%;
+
   background: rgba(0, 0, 0, 0.3);
+  height: 50%;
   width: max-content;
   display: block;
   padding: 0.7rem 1.7rem;
   z-index: 2;
   position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 2rem;
+  bottom: 30%;
   display: flex;
   gap: 0.8rem;
   border-radius: 3rem;
@@ -19,8 +24,14 @@ nav a {
   padding: 0.9rem;
   border-radius: 50%;
   display: flex;
+  justify-content: space-evenly;
   color: var(--color-light);
   font-size: 1.1rem;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: center;
 }
 
 nav a:hover {
@@ -28,6 +39,48 @@ nav a:hover {
 }
 
 nav a.active {
-  background: var(--color-bg);
-  color: var(--color-white);
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+/*============= Media Queries (Medium Devices) ==============*/
+@media screen and (max-width: 1024px) {
+  nav {
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    height: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+  }
+}
+
+/*============= Media Queries (Small Devices) ==============*/
+@media screen and (max-width: 600px) {
+  nav {
+    background: rgba(0, 0, 0, 0.3);
+    height: max-content;
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+  }
 }
