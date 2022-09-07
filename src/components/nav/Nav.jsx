@@ -1,7 +1,7 @@
 import React from "react";
 import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
-import { AiOutlineUser } from "react-icons/ai";
+// import { AiOutlineUser } from "react-icons/ai";
 import { MdDesignServices } from "react-icons/md";
 import { BiBook } from "react-icons/bi";
 import { MdMailOutline } from "react-icons/md";
@@ -12,6 +12,16 @@ const Nav = () => {
 
   return (
     <nav>
+      {/* <div>
+        <a
+          href="#"
+          onClick={() => setActiveNav("#")}
+          className={activeNav === "#" ? "active" : ""}
+        >
+          <AiOutlineHome />
+        </a>
+        <h5 className="nav-text">Home</h5>
+      </div> */}
       <div>
         <a
           href="#"
@@ -21,16 +31,6 @@ const Nav = () => {
           <AiOutlineHome />
         </a>
         <h5 className="nav-text">Home</h5>
-      </div>
-      <div>
-        <a
-          href="#about"
-          onClick={() => setActiveNav("#about")}
-          className={activeNav === "#about" ? "active" : ""}
-        >
-          <AiOutlineUser />
-        </a>
-        <h5 className="nav-text">About</h5>
       </div>
       <div>
         <a

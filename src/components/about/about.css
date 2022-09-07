@@ -30,6 +30,37 @@
   transform: rotate(0deg);
 }
 
+.cta-socials {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: left;
+}
+
+.cta-socials a {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--color-light);
+  font-size: 1.1rem;
+}
+
+.cta-socials a:hover {
+  background: var(--color-primary);
+}
+
+.cta-socials a.active {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+.tagline {
+  text-align: center;
+  color: var(--color-primary);
+}
+
 /* ================== About Cards ================*/
 
 .about_cards {
