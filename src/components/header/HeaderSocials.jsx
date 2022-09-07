@@ -6,10 +6,7 @@ import { FiDribbble } from "react-icons/fi";
 const HeaderSocials = () => {
   return (
     <div className="header_socials">
-      <a
-        href="https://www.linkedin.com/in/harri-best-009075128"
-        target="_blank"
-      >
+      <a href="www.linkedin.com/in/harri-best" target="_blank">
         <BsLinkedin />
       </a>
       <a href="https://github.com/HairiBeast" target="_blank">
