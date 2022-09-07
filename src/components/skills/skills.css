@@ -40,6 +40,10 @@
   color: var(--color-primary);
 }
 
+.cardTitle {
+  margin-bottom: 1rem;
+}
+
 /*============= Media Queries (Medium Devices) ==============*/
 @media screen and (max-width: 1024px) {
   .experience_container {

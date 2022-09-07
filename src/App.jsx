@@ -3,7 +3,7 @@ import React from "react";
 import Nav from "./components/nav/Nav";
 // import ContactNav from "./components/contactNav/ContactNav";
 import About from "./components/about/About";
-import Experience from "./components/experience/Experience";
+import Skills from "./components/skills/Skills";
 // import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 // import Testimonials from "./components/testimonials/Testimonials";
@@ -17,7 +17,7 @@ function App() {
       <Nav />
       {/* <ContactNav /> */}
       <About />
-      <Experience />
+      <Skills />
       {/* <Services /> */}
       <Portfolio />
       {/* <Testimonials /> */}
