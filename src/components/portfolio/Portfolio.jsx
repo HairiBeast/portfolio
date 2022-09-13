@@ -1,17 +1,13 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/RedeemPic.jpg";
+import IMG1 from "../../assets/RedeemHomepage.jpg";
 import IMG2 from "../../assets/IMG2.jpg";
-import IMG3 from "../../assets/IMG3.jpg";
-import IMG4 from "../../assets/IMG4.jpg";
-import IMG5 from "../../assets/IMG5.jpg";
-import IMG6 from "../../assets/IMG6.jpg";
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Redeem App",
+    title: "Redeem Eco App",
     github:
       "https://github.com/afam-io/final-project-front-end-boolean-pirates",
     demo: "https://final-project-front-end-boolean-pirates.vercel.app/",
@@ -20,34 +16,6 @@ const data = [
     id: 2,
     image: IMG2,
     title: "Placeholder1",
-    github: "https://github.com",
-    demo: "https://dribbble.com/",
-  },
-  {
-    id: 3,
-    image: IMG3,
-    title: "Placeholder2",
-    github: "https://github.com",
-    demo: "https://dribbble.com/",
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: "Placeholder3",
-    github: "https://github.com",
-    demo: "https://dribbble.com/",
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: "Placeholder4",
-    github: "https://github.com",
-    demo: "https://dribbble.com/",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: "Placeholder5",
     github: "https://github.com",
     demo: "https://dribbble.com/",
   },
