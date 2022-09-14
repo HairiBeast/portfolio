@@ -6,14 +6,14 @@ import { AiOutlineGithub } from "react-icons/ai";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer_logo">
+      <a href="#about" className="footer_logo">
         HBEST
       </a>
 
       <ul className="permalinks">
-        <li>
+        {/* <li>
           <a href="#">Home</a>
-        </li>
+        </li> */}
         <li>
           <a href="#about">About</a>
         </li>
