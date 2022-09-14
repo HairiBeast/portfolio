@@ -37,8 +37,13 @@ const contact = () => {
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
-        <form method="post" onSubmit="submit" data-netlify="true">
-          <input type="hidden" name="form-name" value="contact" />
+        <form
+          name="contact-form"
+          method="POST"
+          onSubmit="submit"
+          data-netlify="true"
+        >
+          <input type="hidden" name="form-name" value="contact-form" />
 
           <input
             type="text"
