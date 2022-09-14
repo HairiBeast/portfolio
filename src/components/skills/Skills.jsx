@@ -1,6 +1,5 @@
 import React from "react";
 import "./skills.css";
-import { BsPatchCheckFill } from "react-icons/bs";
 import { SiHtml5 } from "react-icons/si";
 import { DiJavascript } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
