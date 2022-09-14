@@ -37,7 +37,7 @@ const contact = () => {
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
-        <form action="" netlify>
+        <form action="" data-netlify="true">
           <input
             type="text"
             name="name"
