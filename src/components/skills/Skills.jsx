@@ -30,7 +30,7 @@ const experience = () => {
               <SiHtml5 size={30} className="experience_details-icon" />
               <div>
                 <h4>HTML5</h4>
-                <small className="text-light">Intermediate</small>
+                {/* <small className="text-light">Placeholder</small> */}
               </div>
             </article>
             <article className="experience_details">
@@ -38,42 +38,42 @@ const experience = () => {
               <div>
                 {" "}
                 <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
+                {/* <small className="text-light">Placeholder</small> */}
               </div>
             </article>
             <article className="experience_details">
               <DiJavascript size={30} className="experience_details-icon" />
               <div>
                 <h4>JavasScript</h4>
-                <small className="text-light">Intermediate</small>
+                {/* <small className="text-light">Placeholder</small> */}
               </div>
             </article>
             <article className="experience_details">
               <GrReactjs size={30} className="experience_details-icon" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">Intermediate</small>
+                {/* <small className="text-light">Placeholder</small> */}
               </div>
             </article>
             <article className="experience_details">
               <SiTypescript size={30} className="experience_details-icon" />
               <div>
                 <h4>TypeScript</h4>
-                <small className="text-light">Beginner</small>
+                {/* <small className="text-light">Placeholder</small> */}
               </div>
             </article>
             <article className="experience_details">
               <SiMiro size={30} className="experience_details-icon" />
               <div>
                 <h4>Miro</h4>
-                <small className="text-light">Beginner</small>
+                {/* <small className="text-light">Placeholder</small> */}
               </div>
             </article>
             <article className="experience_details">
               <SiFigma size={30} className="experience_details-icon" />
               <div>
                 <h4>Figma</h4>
-                <small className="text-light">Beginner</small>
+                {/* <small className="text-light">Placeholder</small> */}
               </div>
             </article>
           </div>
@@ -86,21 +86,21 @@ const experience = () => {
               <SiNodedotjs size={30} className="experience_details-icon" />
               <div>
                 <h4>Node.JS</h4>
-                <small className="text-light">Intermediate</small>
+                {/* <small className="text-light">Placeholder</small> */}
               </div>
             </article>
             <article className="experience_details">
               <SiExpress size={30} className="experience_details-icon" />
               <div>
                 <h4>Express.JS</h4>
-                <small className="text-light">Intermediate</small>
+                {/* <small className="text-light">Placeholder</small> */}
               </div>
             </article>
             <article className="experience_details">
               <SiJest size={30} className="experience_details-icon" />
               <div>
                 <h4>Jest</h4>
-                <small className="text-light">Intermediate</small>
+                {/* <small className="text-light">Placeholder</small> */}
               </div>
             </article>
             <article className="experience_details">
@@ -108,21 +108,21 @@ const experience = () => {
               <div>
                 {" "}
                 <h4>PostgreSQL</h4>
-                <small className="text-light">Intermediate</small>
+                {/* <small className="text-light">Placeholder</small> */}
               </div>
             </article>
             <article className="experience_details">
               <SiHeroku size={30} className="experience_details-icon" />
               <div>
                 <h4>Heroku</h4>
-                <small className="text-light">Beginner</small>
+                {/* <small className="text-light">Placeholder</small> */}
               </div>
             </article>
             <article className="experience_details">
               <SiCypress size={30} className="experience_details-icon" />
               <div>
                 <h4>Cypress</h4>
-                <small className="text-light">Beginner</small>
+                {/* <small className="text-light">Placeholder</small> */}
               </div>
             </article>
           </div>

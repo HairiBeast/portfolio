@@ -32,11 +32,13 @@
 
 .experience_details {
   display: flex;
+  align-items: center;
+  margin-top: 6px;
   gap: 1rem;
 }
 
 .experience_details-icon {
-  margin-top: 6px;
+  /* margin-top: 6px; */
   color: var(--color-primary);
 }
 
