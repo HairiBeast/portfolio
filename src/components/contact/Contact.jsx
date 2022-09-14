@@ -38,14 +38,14 @@ const contact = () => {
         </div>
         {/* END OF CONTACT OPTIONS */}
         <form method="post" onSubmit="submit" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact" />
+
           <input
             type="text"
             name="contact"
             placeholder="Your full name"
             required
           />
-
-          <input type="hidden" name="form-name" value="contact" />
 
           <input type="email" name="email" placeholder="Your Email" required />
           <textarea
