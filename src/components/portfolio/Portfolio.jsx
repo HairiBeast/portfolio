@@ -1,7 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-// import IMG1 from "../../assets/RedeemHomepage.jpg";
-// import IMG2 from "../../assets/IMG2.jpg";
+import IMG1 from "../../assets/RedeemHomepage.jpg";
 
 const data = [
   {
@@ -11,13 +10,6 @@ const data = [
     github:
       "https://github.com/afam-io/final-project-front-end-boolean-pirates",
     demo: "https://final-project-front-end-boolean-pirates.vercel.app/",
-  },
-  {
-    id: 2,
-    image: IMG2,
-    title: "Placeholder1",
-    github: "https://github.com",
-    demo: "https://dribbble.com/",
   },
 ];
 
