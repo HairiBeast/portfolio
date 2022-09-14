@@ -12,7 +12,11 @@ const CTASocials = () => {
         {/* <h5 className="nav-text">Linkedin</h5> */}
       </div>
       <div>
-        <a href="https://github.com/HairiBeast" target="_blank">
+        <a
+          href="https://github.com/HairiBeast"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaGithub size={30} className="cta-icon" />
         </a>
         {/* <h5 className="nav-text">GitHub</h5> */}
