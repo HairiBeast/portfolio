@@ -37,22 +37,17 @@ const contact = () => {
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
-        <form
-          name="contact-form"
-          method="POST"
-          onSubmit="submit"
-          data-netlify="true"
-        >
-          <input type="hidden" name="form-name" value="contact-form" />
+        <form name="contactform" className="contactForm" method="POST">
+          <input type="hidden" name="form-name" value="contactForm" />
 
           <input
             type="text"
-            name="contact"
+            name="name"
             placeholder="Your full name"
             required
           />
 
-          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="email" name="email" placeholder="Your email" required />
           <textarea
             name="message"
             rows="7"
