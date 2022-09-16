@@ -15,7 +15,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "calculator",
+    title: "Calculator",
     github: "https://github.com/HairiBeast/Calculator",
     demo: "https://6324f2ff2139ab39ed8d36d2--super-kitsune-d54a55.netlify.app/",
   },
