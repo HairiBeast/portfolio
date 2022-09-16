@@ -1,6 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/RedeemHomepage.jpg";
+import IMG2 from "../../assets/calculator.jpg";
 
 const data = [
   {
@@ -10,6 +11,13 @@ const data = [
     github:
       "https://github.com/afam-io/final-project-front-end-boolean-pirates",
     demo: "https://final-project-front-end-boolean-pirates.vercel.app/",
+  },
+  {
+    id: 2,
+    image: IMG2,
+    title: "calculator",
+    github: "https://github.com/HairiBeast/Calculator",
+    demo: "https://6324f2ff2139ab39ed8d36d2--super-kitsune-d54a55.netlify.app/",
   },
 ];
 
