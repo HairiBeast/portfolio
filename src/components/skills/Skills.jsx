@@ -15,6 +15,7 @@ import { SiPostgresql } from "react-icons/si";
 import { SiHeroku } from "react-icons/si";
 import { SiJest } from "react-icons/si";
 import { SiCypress } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 
 const experience = () => {
   return (
@@ -108,6 +109,13 @@ const experience = () => {
               <div>
                 {" "}
                 <h4>PostgreSQL</h4>
+                {/* <small className="text-light">Placeholder</small> */}
+              </div>
+            </article>
+            <article className="experience_details">
+              <SiMongodb size={30} className="experience_details-icon" />
+              <div>
+                <h4>MongoDB</h4>
                 {/* <small className="text-light">Placeholder</small> */}
               </div>
             </article>
