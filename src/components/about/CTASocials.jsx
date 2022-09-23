@@ -9,7 +9,7 @@ const CTASocials = () => {
     <div className="cta-socials">
       <div>
         <a href={HarriBestCV} download>
-          <ImProfile size={30} className="cta-icon" />
+          <ImProfile size={50} className="cta-icon" />
         </a>
         {/* <h5 className="nav-text">CV</h5> */}
       </div>
@@ -19,7 +19,7 @@ const CTASocials = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <BsLinkedin size={30} className="cta-icon" />
+          <BsLinkedin size={50} className="cta-icon" />
         </a>
         {/* <h5 className="nav-text">Linkedin</h5> */}
       </div>
@@ -29,7 +29,7 @@ const CTASocials = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <FaGithub size={30} className="cta-icon" />
+          <FaGithub size={50} className="cta-icon" />
         </a>
         {/* <h5 className="nav-text">GitHub</h5> */}
       </div>

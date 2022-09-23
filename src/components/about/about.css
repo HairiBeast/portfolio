@@ -5,6 +5,36 @@
   gap: 15%;
 }
 
+h1 {
+  display: block;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid var(--color-bg); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 10s steps(40, end), blink-caret 5s steps(30, end);
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--color-bg-variant);
+  }
+}
 .about_me {
   width: 100%;
   aspect-ratio: 1/1;
@@ -31,24 +61,48 @@
 }
 
 .cta-socials {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   display: flex;
   gap: 1.2rem;
-  justify-content: left;
+  justify-content: space-evenly;
 }
 
 .cta-socials a {
-  background: rgba(0, 0, 0, 0.3);
-  padding: 0.9rem;
+  background: var(--color-bg-variant);
+  padding: 1.1rem;
   border-radius: 50%;
   display: flex;
   justify-content: space-evenly;
-  color: var(--color-light);
+  color: var(--color-primary);
   font-size: 1.1rem;
+  animation: 5s wiggle ease infinite;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(-3deg);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  20% {
+    transform: rotate(20deg);
+  }
+  40% {
+    transform: rotate(-15deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  90% {
+    transform: rotate(-1deg);
+  }
+  100% {
+    transform: rotate(0);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
 }
 
 .cta-socials a:hover {
-  background: var(--color-primary);
+  background: var(--color-bg);
 }
 
 .cta-socials a.active {
