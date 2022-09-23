@@ -14,7 +14,11 @@ const CTASocials = () => {
         {/* <h5 className="nav-text">CV</h5> */}
       </div>
       <div>
-        <a href="www.linkedin.com/in/harri-best" target="_blank">
+        <a
+          href="https://linkedin.com/in/harri-best"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsLinkedin size={30} className="cta-icon" />
         </a>
         {/* <h5 className="nav-text">Linkedin</h5> */}
