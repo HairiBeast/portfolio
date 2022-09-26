@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer>
       <a href="#about" className="footer_logo">
-        HBEST
+        ^ Scroll Up ^
       </a>
 
       <ul className="permalinks">
