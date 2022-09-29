@@ -8,6 +8,7 @@ import { GrReactjs } from "react-icons/gr";
 import { SiMiro } from "react-icons/si";
 import { SiFigma } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
+import { SiTailwindcss } from "react-icons/si";
 
 // BACKEND IMPORTS
 import { SiNodedotjs } from "react-icons/si";
@@ -83,6 +84,13 @@ const experience = () => {
               <SiFigma size={30} className="experience_details-icon" />
               <div>
                 <h4>Figma</h4>
+                {/* <small className="text-light">Placeholder</small> */}
+              </div>
+            </article>
+            <article className="experience_details">
+              <SiTailwindcss size={30} className="experience_details-icon" />
+              <div>
+                <h4>Tailwind</h4>
                 {/* <small className="text-light">Placeholder</small> */}
               </div>
             </article>
