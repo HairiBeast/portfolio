@@ -35,12 +35,12 @@ const Nav = () => {
       <div>
         <a
           href="#experience"
-          onClick={() => setActiveNav("#experience")}
-          className={activeNav === "#experience" ? "active" : ""}
+          onClick={() => setActiveNav("#technology")}
+          className={activeNav === "#technology" ? "active" : ""}
         >
           <MdDesignServices />
         </a>
-        <h5 className="nav-text">Skills</h5>
+        <h5 className="nav-text">Tech</h5>
       </div>
       <div>
         <a

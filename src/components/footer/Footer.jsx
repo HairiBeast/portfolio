@@ -2,12 +2,13 @@ import React from "react";
 import "./footer.css";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { AiOutlineGithub } from "react-icons/ai";
+import { BsFillArrowUpCircleFill } from "react-icons/bs";
 
 const Footer = () => {
   return (
     <footer>
       <a href="#about" className="footer_logo">
-        ^ Scroll Up ^
+        <BsFillArrowUpCircleFill size={30} className="footer_icon" />
       </a>
 
       <ul className="permalinks">
@@ -18,17 +19,17 @@ const Footer = () => {
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#technologies">Experience</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#services">Services</a>
-        </li>
+        </li> */}
         <li>
           <a href="#portfolio">Portfolio</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#testimonials">Testimonials</a>
-        </li>
+        </li> */}
         <li>
           <a href="#contact">Contact</a>
         </li>
