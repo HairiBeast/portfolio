@@ -47,7 +47,7 @@ const data = [
       "https://github.com/afam-io/final-project-front-end-boolean-pirates",
     demo: "https://final-project-front-end-boolean-pirates.vercel.app/",
     description:
-      "The final project for School of Code. Redeem is a platfrom for eco-minded creators and users.",
+      "The final project for School of Code. Redeem is a platform for eco-minded creators and users.",
     icon: "TbBrandNextjs",
   },
   {
@@ -79,15 +79,20 @@ const Portfolio = () => {
               <p className="description">{description}</p>
               <div className="portfolio_item-cta">
                 <a
-                  href={github}
+                  href={demo}
                   className="btn btn-primary"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Github
-                </a>
-                <a href={demo} className="btn" target="_blank" rel="noreferrer">
                   Live Demo
+                </a>
+                <a
+                  href={github}
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
                 </a>
               </div>
             </article>
