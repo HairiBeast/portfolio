@@ -91,7 +91,7 @@ const Portfolio = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Github
+                  GitHub
                 </a>
               </div>
             </article>

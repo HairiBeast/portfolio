@@ -25,13 +25,12 @@ const contact = () => {
           <article className="contact_option">
             <AiOutlineLinkedin className="contact_option-icon" />
             <h4>Linkedin</h4>
-            <h5>Connect with me</h5>
             <a
               href="https://linkedin.com/in/harri-best"
               target="_blank"
               rel="noreferrer"
             >
-              here
+              My profile
             </a>
           </article>
         </div>
