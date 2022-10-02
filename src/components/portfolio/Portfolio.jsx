@@ -55,7 +55,7 @@ const data = [
     image: IMG2,
     title: "Calculator",
     github: "https://github.com/HairiBeast/Calculator",
-    demo: "https://6324f2ff2139ab39ed8d36d2--super-kitsune-d54a55.netlify.app/",
+    demo: "https://harribestcalculator.netlify.app/",
     description:
       "A Calculator with button press effects and an optional dark mode",
     icon: "SiCss3",
