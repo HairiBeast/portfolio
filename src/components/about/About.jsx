@@ -40,13 +40,15 @@ const about = () => {
           </div> */}
 
           <h3>
-            Welcome to my site! Currently transitioning into the tech industry
-            after a fulfilling decade of teaching. I bring a wealth of
-            transferrable skills which have been invaluable when working within
-            a team. I have experience of working with agile methods and
-            collaborating within a team to deliver web apps from ideation
-            through to deplayment, front-end to back-end. Of particular interest
-            for me is UX/UI and user-centered aspects.
+            Currently transitioning into the tech industry after a fulfilling
+            decade of teaching. I bring a wealth of transferrable skills which
+            have been invaluable when working within Agile team. I enjoy the
+            process of creating intuitive UI/UX and applying front-end and
+            back-end skills and am open to both coding-centric and
+            design-centric roles.
+            <br />
+            <br />
+            My CV is available upon request.
           </h3>
           {/* <h4 className="tagline">Currently seeking new opportunities.</h4> */}
           <CTASocials />

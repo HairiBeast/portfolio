@@ -1,18 +1,18 @@
 import React from "react";
-import HarriBestCV from "../../assets/HarriBestCV.pdf";
+// import HarriBestCV from "../../assets/HarriBestCV.pdf";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-import { ImProfile } from "react-icons/im";
+// import { ImProfile } from "react-icons/im";
 
 const CTASocials = () => {
   return (
     <div className="cta-socials">
-      <div>
+      {/* <div>
         <a href={HarriBestCV} download>
           <ImProfile size={50} className="cta-icon" />
         </a>
-        {/* <h5 className="nav-text">CV</h5> */}
-      </div>
+        <h5 className="nav-text">CV</h5>
+      </div> */}
       <div>
         <a
           href="https://linkedin.com/in/harri-best"
