@@ -1,7 +1,8 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/RedeemHomepage.jpg";
+import IMG1 from "../../assets/redeemHomepage.jpg";
 import IMG2 from "../../assets/calculator.jpg";
+import IMG3 from "../../assets/libraryApp.jpg";
 // Icons
 // import { SiHtml5 } from "react-icons/si";
 // import { DiJavascript } from "react-icons/di";
@@ -58,6 +59,16 @@ const data = [
     demo: "https://harribestcalculator.netlify.app/",
     description:
       "A Calculator with button press effects and an optional dark mode",
+    icon: "SiCss3",
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: "Library App",
+    github: "https://github.com/HairiBeast/library-app",
+    demo: "https://harribestlibraryapp.netlify.app/",
+    description:
+      "Built in React, this app makes an API call using axios from a user query",
     icon: "SiCss3",
   },
 ];
