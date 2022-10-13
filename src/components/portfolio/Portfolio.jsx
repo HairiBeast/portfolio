@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/redeemHomepage.jpg";
+import IMG1 from "../../assets/redeem.jpg";
 import IMG2 from "../../assets/calculator.jpg";
 import IMG3 from "../../assets/libraryApp.jpg";
 // Icons
