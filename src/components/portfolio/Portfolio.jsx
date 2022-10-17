@@ -68,7 +68,7 @@ const data = [
     github: "https://github.com/HairiBeast/library-app",
     demo: "https://harribestlibraryapp.netlify.app/",
     description:
-      "Built in React, this app makes an API call using axios from a user query",
+      "MVP: Built in React, this app makes an API call using axios from a user query",
     icon: "SiCss3",
   },
 ];
