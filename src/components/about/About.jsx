@@ -45,10 +45,7 @@ const about = () => {
             have been invaluable when working within Agile team. I enjoy the
             process of creating intuitive UI/UX and applying front-end and
             back-end skills and am open to both coding-centric and
-            design-centric roles.
-            <br />
-            <br />
-            My CV is available upon request.
+            design-centric roles. My CV is available upon request.
           </h3>
           {/* <h4 className="tagline">Currently seeking new opportunities.</h4> */}
           <CTASocials />
