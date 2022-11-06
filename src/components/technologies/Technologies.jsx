@@ -21,9 +21,9 @@ import { SiMongodb } from "react-icons/si";
 import { SiNetlify } from "react-icons/si";
 import { TbBrandVercel } from "react-icons/tb";
 
-const experience = () => {
+const technologies = () => {
   return (
-    <section id="experience">
+    <section id="technologies">
       <h1>Technologies</h1>
 
       <div className="container experience_container">
@@ -171,4 +171,4 @@ const experience = () => {
   );
 };
 
-export default experience;
+export default technologies;

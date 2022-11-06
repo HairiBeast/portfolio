@@ -34,7 +34,7 @@ const Nav = () => {
       </div>
       <div>
         <a
-          href="#experience"
+          href="#technologies"
           onClick={() => setActiveNav("#technology")}
           className={activeNav === "#technology" ? "active" : ""}
         >

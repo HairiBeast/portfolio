@@ -19,7 +19,7 @@ const Footer = () => {
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#technologies">Experience</a>
+          <a href="#technologies">Tech</a>
         </li>
         {/* <li>
           <a href="#services">Services</a>
@@ -36,10 +36,18 @@ const Footer = () => {
       </ul>
 
       <div className="footer_socials">
-        <a href="www.linkedin.com/in/harri-best">
+        <a
+          href="https://www.linkedin.com/in/harri-best/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiOutlineLinkedin size={20} />
         </a>
-        <a href="https://github.com/HairiBeast">
+        <a
+          href="https://github.com/HairiBeast"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiOutlineGithub size={20} />
         </a>
       </div>
