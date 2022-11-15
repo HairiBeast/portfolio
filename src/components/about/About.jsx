@@ -40,6 +40,10 @@ const about = () => {
           </div> */}
 
           <h3>
+            Welcome to my coding based website. My design based website will be
+            up and running soon!
+            <br />
+            <br />
             Currently transitioning into the tech industry after a fulfilling
             decade of teaching. I bring a wealth of transferrable skills which
             have been invaluable when working within Agile team. I enjoy the
