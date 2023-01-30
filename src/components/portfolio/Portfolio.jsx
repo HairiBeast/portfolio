@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/redeem.jpg";
+// import IMG1 from "../../assets/redeem.jpg";
 import IMG2 from "../../assets/calculator.jpg";
 import IMG3 from "../../assets/libraryApp.jpg";
 // Icons
@@ -40,17 +40,17 @@ import IMG3 from "../../assets/libraryApp.jpg";
 //   ]
 
 const data = [
-  {
-    id: 1,
-    image: IMG1,
-    title: "Redeem Eco App",
-    github:
-      "https://github.com/afam-io/final-project-front-end-boolean-pirates",
-    demo: "https://final-project-front-end-boolean-pirates.vercel.app/",
-    description:
-      "The final project for School of Code. Redeem is a platform for eco-minded creators and users.",
-    icon: "TbBrandNextjs",
-  },
+  // {
+  //   id: 1,
+  //   image: IMG1,
+  //   title: "Redeem Eco App",
+  //   github:
+  //     "https://github.com/afam-io/final-project-front-end-boolean-pirates",
+  //   demo: "https://final-project-front-end-boolean-pirates.vercel.app/",
+  //   description:
+  //     "The final project for School of Code. Redeem is a platform for eco-minded creators and users.",
+  //   icon: "TbBrandNextjs",
+  // },
   {
     id: 2,
     image: IMG2,
