@@ -40,8 +40,7 @@ const about = () => {
           </div> */}
 
           <h3>
-            Welcome to my coding based website. My design based website will be
-            up and running soon!
+            Welcome to my coding based website. My design based website is up and running and is updated more frequently. You can find my design work <a href="www.harribestdesign.uk" target={"_blank"}>here!</a>
             <br />
             <br />
             Currently transitioning into the tech industry after a fulfilling
